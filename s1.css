@@ -1,0 +1,129 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+header {
+  background: #000000;
+  color: #fff;
+  padding: 0px 0;
+  font-size: 20px;
+  z-index: 1000;
+  width: 100%;
+  position: sticky;
+
+ 
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100px; /* Adjust as needed */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+/* Add these styles to your existing CSS */
+
+.user-image {
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  margin-top: 50px; /* Adjust as needed */
+  
+}
+
+.user-image img {
+  max-width: 300px; /* Adjust image size */
+  margin-left: 20px; /* Add some space between the image and text */
+}
+
+.user-info {
+  text-align: left;
+  color: #fff; /* Adjust text color */
+  position: relative;
+  margin-left: 200px;
+  font-size: larger;
+  margin-bottom: 20px;
+}
+.user-info img{
+  height: 25px;
+  width: 25px;
+}
+
+.user-info h4 {
+  margin-bottom: 5px;
+}
+
+.user-info p {
+  margin: 3px 0;
+  color: rgb(78, 203, 78);
+}
+
+
+
+.section {
+  padding: 60px 0;
+  margin-bottom: 50px;
+  text-align:center ;
+}
+
+.section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.p1{
+  float: right;
+  text-align: left;
+  margin-left: 80px;
+}
+.con img{
+  max-width: 300px; /* Adjust image size */
+  margin-left: 20px;
+}
+
+.project {
+  border: 1px solid #323232;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #2e2626;
+}
+
+.project a {
+  display: inline-block;
+  padding: 8px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #333;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
